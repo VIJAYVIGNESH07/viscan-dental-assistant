@@ -1,0 +1,132 @@
+[
+  {
+    "report_id": "REP001",
+    "patient_id": "PAT001",
+    "report_type": "OPG",
+    "report_date": "2026-08-10",
+    "findings": [
+      {
+        "text": "Lower right third molar is horizontally impacted",
+        "source": "synthetic report"
+      }
+    ],
+    "report_text": "Synthetic OPG report: lower right third molar is described as horizontally impacted."
+  },
+  {
+    "report_id": "REP002",
+    "patient_id": "PAT001",
+    "report_type": "INTRAORAL",
+    "report_date": "2026-07-02",
+    "findings": [
+      {
+        "text": "No additional findings included in this synthetic example",
+        "source": "synthetic report"
+      }
+    ],
+    "report_text": "Synthetic intraoral report. No additional findings are supplied in this example."
+  },
+  {
+    "report_id": "REP003",
+    "patient_id": "PAT002",
+    "report_type": "OPG",
+    "report_date": "2026-09-01",
+    "findings": [
+      {
+        "text": "Synthetic example: report notes an unerupted upper canine",
+        "source": "synthetic report"
+      }
+    ],
+    "report_text": "Synthetic OPG report: report notes an unerupted upper canine."
+  },
+  {
+    "report_id": "REP004",
+    "patient_id": "PAT002",
+    "report_type": "BITEWING",
+    "report_date": "2026-06-18",
+    "findings": [
+      {
+        "text": "Synthetic example: no specific abnormality supplied",
+        "source": "synthetic report"
+      }
+    ],
+    "report_text": "Synthetic bitewing report with no specific abnormality supplied in this demo."
+  },
+  {
+    "report_id": "REP005",
+    "patient_id": "PAT003",
+    "report_type": "OPG",
+    "report_date": "2026-05-20",
+    "findings": [
+      {
+        "text": "Synthetic example: mild crowding is described",
+        "source": "synthetic report"
+      }
+    ],
+    "report_text": "Synthetic OPG report: mild crowding is described."
+  },
+  {
+    "report_id": "REP006",
+    "patient_id": "PAT003",
+    "report_type": "INTRAORAL",
+    "report_date": "2026-04-11",
+    "findings": [
+      {
+        "text": "Synthetic example: clinical note provided without further detail",
+        "source": "synthetic report"
+      }
+    ],
+    "report_text": "Synthetic intraoral report with a clinical note and no further detail."
+  },
+  {
+    "report_id": "REP007",
+    "patient_id": "PAT004",
+    "report_type": "OPG",
+    "report_date": "2026-03-08",
+    "findings": [
+      {
+        "text": "Synthetic example: report text intentionally limited",
+        "source": "synthetic report"
+      }
+    ],
+    "report_text": "Synthetic OPG report with intentionally limited example text."
+  },
+  {
+    "report_id": "REP008",
+    "patient_id": "PAT004",
+    "report_type": "BITEWING",
+    "report_date": "2026-02-12",
+    "findings": [
+      {
+        "text": "Synthetic example: no additional observation specified",
+        "source": "synthetic report"
+      }
+    ],
+    "report_text": "Synthetic bitewing report; no additional observation is specified."
+  },
+  {
+    "report_id": "REP009",
+    "patient_id": "PAT005",
+    "report_type": "OPG",
+    "report_date": "2026-01-30",
+    "findings": [
+      {
+        "text": "Synthetic example: report mentions a restored molar",
+        "source": "synthetic report"
+      }
+    ],
+    "report_text": "Synthetic OPG report: a restored molar is mentioned."
+  },
+  {
+    "report_id": "REP010",
+    "patient_id": "PAT005",
+    "report_type": "INTRAORAL",
+    "report_date": "2025-12-09",
+    "findings": [
+      {
+        "text": "Synthetic example: limited clinical details available",
+        "source": "synthetic report"
+      }
+    ],
+    "report_text": "Synthetic intraoral report with limited clinical details."
+  }
+]

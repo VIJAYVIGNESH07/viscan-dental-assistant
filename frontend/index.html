@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f8fb">
+  <title>Viscan | Dental AI Assistant</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="Conversation history">
+      <a class="brand" href="/" aria-label="Viscan home">
+        <span class="brand-mark">V</span>
+        <span><strong>viscan</strong><small>Dental AI assistant</small></span>
+      </a>
+      <button class="new-chat" id="newChatBtn" type="button"><span aria-hidden="true">＋</span> New conversation</button>
+      <div class="side-label">THIS SESSION</div>
+      <div id="historyList" class="history-list"><div class="history-empty">Your recent messages will appear here.</div></div>
+      <div class="sidebar-spacer"></div>
+      <div class="privacy-note"><span class="privacy-dot"></span><div><strong>Synthetic demo only</strong><p>No real patient data. Drafts require clinician review.</p></div></div>
+      <div class="side-footer">VISCAN AI ENGINEER · POC</div>
+    </aside>
+
+    <main class="main-area">
+      <header class="topbar">
+        <div class="mobile-brand"><span class="brand-mark">V</span><strong>viscan</strong></div>
+        <div class="assistant-identity"><span class="assistant-avatar" aria-hidden="true">✳</span><div><strong>Dental AI Assistant</strong><span>Report retrieval · Dictation drafts · Grounded follow-ups</span></div></div>
+        <div id="apiStatus" class="api-status"><span class="status-dot"></span> Checking service…</div>
+      </header>
+
+      <section class="chat-stage" aria-label="Assistant conversation">
+        <div class="welcome" id="welcomePanel">
+          <div class="welcome-symbol" aria-hidden="true">✳</div>
+          <p class="eyebrow">YOUR CLINICAL WORKFLOW COMPANION</p>
+          <h1>How can I help<br><em>with your report?</em></h1>
+          <p class="welcome-copy">Ask naturally. I’ll interpret your request, use the available synthetic records or dictation tools, and show the source behind report-based answers.</p>
+          <div class="suggestion-grid">
+            <button class="suggestion" data-prompt="Open Priya Sharma's latest OPG report"><span class="suggestion-icon">↗</span><span><strong>Find a patient report</strong><small>“Open Priya Sharma's latest OPG”</small></span></button>
+            <button class="suggestion" data-prompt="Generate a draft from this observation: Lower right third molar is horizontally impacted."><span class="suggestion-icon">▤</span><span><strong>Draft from dictation</strong><small>Turn an observation into structured text</small></span></button>
+            <button class="suggestion" data-prompt="What can you help me with?"><span class="suggestion-icon">✳</span><span><strong>Explore capabilities</strong><small>Ask what this assistant can do</small></span></button>
+          </div>
+        </div>
+        <div id="messages" class="messages" role="log" aria-live="polite" aria-relevant="additions text"></div>
+      </section>
+
+      <div class="composer-wrap">
+        <div class="scope-line"><span class="scope-icon">ⓘ</span> Answers use synthetic demo records. Clinical drafts are not final reports.</div>
+        <form id="chatForm" class="composer">
+          <label class="sr-only" for="messageInput">Message the dental assistant</label>
+          <textarea id="messageInput" rows="1" maxlength="2000" placeholder="Ask for a report, a summary, or a draft from dictation…" required></textarea>
+          <div class="composer-actions">
+            <div class="input-tools"><button type="button" id="micBtn" class="tool-button" aria-label="Start speech recognition" title="Dictate a message"><span aria-hidden="true">🎙</span><span class="tool-label">Dictate</span></button><span id="micStatus" class="mic-status" aria-live="polite"></span></div>
+            <button type="submit" id="sendBtn" class="send-button"><span>Send</span><span aria-hidden="true">↑</span></button>
+          </div>
+        </form>
+        <p class="composer-footnote">Review dictated text before sending · This prototype does not connect to real patient systems</p>
+      </div>
+    </main>
+  </div>
+  <script src="/static/app.js" defer></script>
+</body>
+</html>

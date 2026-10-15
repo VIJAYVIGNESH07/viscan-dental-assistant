@@ -1,0 +1,27 @@
+[
+  {
+    "patient_id": "PAT001",
+    "name": "Priya Sharma",
+    "date_of_birth": "1998-04-12"
+  },
+  {
+    "patient_id": "PAT002",
+    "name": "Priya Shankar",
+    "date_of_birth": "2000-09-21"
+  },
+  {
+    "patient_id": "PAT003",
+    "name": "Arun Kumar",
+    "date_of_birth": "1987-02-14"
+  },
+  {
+    "patient_id": "PAT004",
+    "name": "Meena Raj",
+    "date_of_birth": "1992-11-05"
+  },
+  {
+    "patient_id": "PAT005",
+    "name": "Karthik Raman",
+    "date_of_birth": "1979-06-30"
+  }
+]
